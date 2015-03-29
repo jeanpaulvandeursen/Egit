@@ -8,6 +8,7 @@ class Concepts {
 		def name="$firstName $lastName"
 		println name
 		def myList=[1,2,3,4]
+		// Closure example
 		myList.each { println it }
 		assert(name=="Jean-Paul van Deursen")
 	}
