@@ -5,6 +5,6 @@ public class Multiplier {
 		if (x > 100) {
 			throw new IllegalArgumentException("x kleiner of gelijk aan dan 100");
 		}
-		return x / y;
+		return x * y;
 	}
 }
